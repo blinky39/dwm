@@ -1,10 +1,10 @@
 # Leon's build of dwm
-After 6 hour trying to get FiraCode work, along side with a fallback font to display some cjk character which FiraCode does not support, I try to get font2 patch of `st` work, but It seems that it is completely not working, only the first *char font* works, but font2 is not loding, all my Asian characters are blank in st.
-I also tried alacritty, that indeed worked, even I only set FiraCode in alacritty.yaml, I am quietly confussing about how these two behaviour different with each other when loading font.
+After 6 hour trying to get FiraCode work along side with a fallback font to display some cjk character which FiraCode does not support, with a font2 patch of my st, It seems that it is completely not working, only the first *char font* works, but font2 is not loading, all my Asian characters are blank in st.
+I also tried alacritty, that indeed worked (cjk chars are displayed well), even I only set FiraCode in alacritty.yaml. I am quietly confussing about how these two behaviour different with each other when loading font.
 
 STFW for about 4 hours still brings me no luck, so finally I yield 😥
 
-I bind MOD+Return to use FiraCode`st -f FiraCode:size=16` and Shift+Returnto use [Hack](https://github.com/source-foundry/Hack) font.
+In dwm(config.h), I bind MOD+Return to use [FiraCode](https://github.com/tonsky/FiraCode/) `st -f FiraCode:size=16` and Shift+Return to use [Hack](https://github.com/source-foundry/Hack) font.
 That totally not cool, but... anyway did work...
 
 ## Patches and features
